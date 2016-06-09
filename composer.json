@@ -1,0 +1,18 @@
+{
+    "name": "kkkw/laravel-codesniffer",
+    "description": "Laravel CodeSniffer Standards",
+    "type": "library",
+    "keywords": ["phpcs", "codesniffer", "laravel"],
+    "homepage": "https://github.com/kkkw/laravel-codesniffer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kkkw",
+            "homepage": "https://github.com/kkkw/laravel-codesniffer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/kkkw/laravel-codesniffer/issues",
+        "source": "https://github.com/kkkw/laravel-codesniffer"
+    }
+}

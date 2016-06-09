@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ruleset name="Laravel">
+  <rule ref="PSR1">
+    <!-- テストクラスなどで引っかかるので除外 -->
+    <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+  </rule>
+
+  <rule ref="PSR2">
+    <!-- 日本語だと検知できないので除外 -->
+    <exclude name="Generic.Files.LineLength"/>
+    <!-- <exclude name="PSR2.Classes.ClassDeclaration.OpenBraceNewLine"/> -->
+    <!-- <exclude name="PSR2.Files.EndFileNewline.NoneFound"/> -->
+    <!-- <exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine"/> -->
+    <!-- <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction"/> -->
+    <!-- <exclude name="Generic.ControlStructures.InlineControlStructure.NotAllowed"/> -->
+    <!-- <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction"/> -->
+    <!-- <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/> -->
+    <!-- <exclude name="Squiz.ControlStructures.ControlSignature"/> -->
+  </rule>
+  <rule ref="Squiz.ControlStructures.InlineIfDeclaration">
+  </rule>
+  <rule ref="Internal.NoCodeFound">
+      <exclude-pattern>*/views/*</exclude-pattern>
+  </rule>
+
+  <exclude-pattern>gulpfile.js</exclude-pattern>
+  <exclude-pattern>*.blade.php</exclude-pattern>
+  <exclude-pattern>*.twig.php</exclude-pattern>
+  <exclude-pattern>bootstrap/</exclude-pattern>
+  <exclude-pattern>node_modules/</exclude-pattern>
+  <exclude-pattern>public/build/</exclude-pattern>
+  <exclude-pattern>public/css/</exclude-pattern>
+  <exclude-pattern>public/js/</exclude-pattern>
+  <exclude-pattern>public/vendor/</exclude-pattern>
+  <exclude-pattern>resources/assets/</exclude-pattern>
+  <exclude-pattern>resources/views/</exclude-pattern>
+  <exclude-pattern>storage/</exclude-pattern>
+  <exclude-pattern>vendor/</exclude-pattern>
+</ruleset>
