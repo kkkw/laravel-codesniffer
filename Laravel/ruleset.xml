@@ -17,8 +17,8 @@
     <!-- <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/> -->
     <!-- <exclude name="Squiz.ControlStructures.ControlSignature"/> -->
   </rule>
-  <rule ref="Squiz.ControlStructures.InlineIfDeclaration">
-  </rule>
+  <rule ref="Squiz.ControlStructures.InlineIfDeclaration" />
+  <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
   <rule ref="Internal.NoCodeFound">
       <exclude-pattern>*/views/*</exclude-pattern>
   </rule>
